@@ -1,7 +1,10 @@
 //String to Array of Words
 
 string_to_array=function(str){
+    //This method is using sub methods
     //return str.trim().split(" ");
+
+    //This one is alternative method but it will print by seperate chars yet to made some changes..
     let len1 = str.length-1;
     let i=0;
     let str3=[];
